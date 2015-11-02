@@ -2,7 +2,7 @@
 This is a test project.
 
 # Getting Started
-To start clone the repo, and run `npm install`.
-Then run `npm run tsc`. 
+- To start clone the repo, and run `npm install` then run `jspm install`
+- Then run `npm run tsc`. 
 This will compile the TypeScript files, and watch for changes.
-In a seperate terminal window run `npm run start`. This will start up a local live-server instance and open your browser to the demo page.
+- In a seperate terminal window run `npm run start`. This will start up a local live-server instance and open your browser to the demo page.
