@@ -1,0 +1,14 @@
+<html>
+	<head>
+		<script src="/jspm_packages/system.js"></script>
+		<script src="/config.js"></script>
+	</head>
+	<body>
+		<script>
+			System.import('reflect-metadata')
+				  .then(function(){System.import('zone.js')})
+				  .then(function(){System.import('app/app')});
+		</script>
+		<app-root>Loading angular app...</app-root>
+	</body>
+</html>

@@ -1,0 +1,28 @@
+{
+  "jspm": {
+    "dependencies": {
+      "angular2": "npm:angular2@^2.0.0-alpha.45",
+      "reflect-metadata": "npm:reflect-metadata@^0.1.2",
+      "zone.js": "npm:zone.js@^0.5.8"
+    },
+    "devDependencies": {}
+  },
+  "name": "jspm-test2",
+  "version": "1.0.0",
+  "main": "config.js",
+  "dependencies": {
+    "typescript": "^1.6.2"
+  },
+  "devDependencies": {
+    "jspm": "^0.16.14",
+    "live-server": "^0.8.2",
+    "typescript": "^1.6.2"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "live-server --open=src",
+    "tsc": "tsc -w"
+  },
+  "author": "",
+  "license": "ISC"
+}
