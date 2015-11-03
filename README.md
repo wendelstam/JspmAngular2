@@ -1,5 +1,6 @@
 # Test for JSPM, Angular2 with Visual Studio Code using Typescript
-This is a test project.
+This is a test project to setup Angular2 with JSPM.
+Note that this is a personal project for educational purposes.
 
 # Getting Started
 - To start clone the repo, and run `npm install` then run `jspm install`
