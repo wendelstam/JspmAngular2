@@ -18,7 +18,7 @@ var HomeComponent = (function () {
     HomeComponent = __decorate([
         angular2_1.Component({
             selector: 'home',
-            template: "<h1>Hi from home @ {{time}}</h1>",
+            template: "<h1>Hi from home container @ {{time}}</h1>",
             styles: ["h1 { \n\t\t\t\t\tcolor: grey;\n\t\t\t\t\tfont-size: 19px;\n\t\t\t\t\tfont-family: Verdana;\n\t\t\t\t }"]
         }), 
         __metadata('design:paramtypes', [])

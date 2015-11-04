@@ -2,7 +2,7 @@ import {Component} from 'angular2/angular2';
 
 @Component({
 	selector: 'home',
-	template: `<h1>Hi from home @ {{time}}</h1>`,
+	template: `<h1>Hi from home container @ {{time}}</h1>`,
 	styles: [`h1 { 
 					color: grey;
 					font-size: 19px;

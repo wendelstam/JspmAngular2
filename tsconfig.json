@@ -3,12 +3,17 @@
         "module": "commonjs",
         "target": "ES5",
         "noImplicitAny": false,
-        "outDir": ".",
-        "rootDir": "./src",
+        "rootDir": "/",
         "sourceMap": false,
         "emitDecoratorMetadata": true,
-        "experimentalDecorators": true
+        "experimentalDecorators": true,
+        "experimentalAsyncFunctions": false,
+        "noEmitOnError": true
     },
+    "files": [
+        "src/app/app.ts",
+        "typings/tsd.d.ts"
+    ],
     "exclude": [
         "node_modules",
         "jspm_packages"

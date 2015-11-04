@@ -1,15 +1,22 @@
 <html>
-	<head>
-		<base href="/src">
-		<script src="/jspm_packages/system.js"></script>
-		<script src="/config.js"></script>
-	</head>
-	<body>
-		<script>
-			System.import('reflect-metadata')
-				  .then(function(){System.import('zone.js')})
-				  .then(function(){System.import('app/app')});
-		</script>
+
+<head>
+	<base href="/src">
+	<script src="/jspm_packages/system.js"></script>
+	<script src="/config.js"></script>
+</head>
+
+<body>
+	<script>
+		System.import('reflect-metadata')
+		      .then(function() { System.import('zone.js'); })
+			  .then(function() { System.import('bootstrap/css/bootstrap.min.css!')
+			  						   .then(function() { console.log('CSS file loaded');} ); })
+			  .then(function() { System.import('app/app'); });
+	</script>
+	<div class="container">
 		<app-root>Loading angular app...</app-root>
-	</body>
+	</div>
+</body>
+
 </html>

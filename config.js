@@ -8,8 +8,10 @@ System.config({
   },
 
   map: {
+    "css": "node_modules/system-css/css.js",
     "angular2": "npm:angular2@2.0.0-alpha.45",
     "app": "src/app",
+    "bootstrap": "github:twbs/bootstrap@3.3.5",
     "reflect-metadata": "npm:reflect-metadata@0.1.2",
     "zone.js": "npm:zone.js@0.5.8",
     "github:jspm/nodelibs-assert@0.1.0": {
@@ -44,6 +46,9 @@ System.config({
     },
     "github:jspm/nodelibs-vm@0.1.0": {
       "vm-browserify": "npm:vm-browserify@0.0.4"
+    },
+    "github:twbs/bootstrap@3.3.5": {
+      "jquery": "github:components/jquery@2.1.4"
     },
     "npm:@reactivex/rxjs@5.0.0-alpha.4": {
       "buffer": "github:jspm/nodelibs-buffer@0.1.0",

@@ -2,6 +2,7 @@
   "jspm": {
     "dependencies": {
       "angular2": "npm:angular2@^2.0.0-alpha.45",
+      "bootstrap": "github:twbs/bootstrap@^3.3.5",
       "reflect-metadata": "npm:reflect-metadata@^0.1.2",
       "zone.js": "npm:zone.js@^0.5.8"
     },
@@ -14,6 +15,7 @@
   "devDependencies": {
     "jspm": "^0.16.14",
     "live-server": "^0.8.2",
+    "system-css": "^0.1.0",
     "typescript": "^1.6.2"
   },
   "scripts": {
