@@ -10,9 +10,14 @@
         "experimentalAsyncFunctions": false,
         "noEmitOnError": true
     },
-    "files": [
-        "src/app/app.ts",
-        "typings/tsd.d.ts"
+    "fileGlobs": [
+        "./src/**/*.ts",
+        "./typings/**/*.ts",
+        "!./node_modules/**",
+        "!./modules_dart/**",
+        "!./packages/**",
+        "!./dist/**",
+        "!./temp/**"
     ],
     "exclude": [
         "node_modules",

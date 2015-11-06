@@ -1,0 +1,17 @@
+<div class="container">
+	<h1>Angular2 demo app @ {{time}}</h1>
+	<nav class="navbar navbar-default">
+		<ul class="nav nav-tabs">
+			<li> <a [router-link]="['/Home']">Home</a></li>
+			<li> <a [router-link]="['/Demo', {'idParam':'12345'}]">Demo</a></li>
+		</ul>
+	</nav>
+	<router-outlet></router-outlet>
+	<div class="jumbotron">
+		<event-test
+			(click-event)="eventHandler($event)"
+			(something-happened)="eventHandler($event)"
+			[some-state]="test">
+			</event-test>
+	</div>
+</div>
